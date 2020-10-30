@@ -65,9 +65,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency('puma', '>= 4.3', '< 6.0')
   spec.add_runtime_dependency('barnes', '0.0.8')
   spec.add_runtime_dependency('woothee', '~> 1.11')
-  spec.add_runtime_dependency('algoliasearch', '1.27.4')
+  spec.add_runtime_dependency('algoliasearch', '1.27.5')
   spec.add_runtime_dependency('rest-client', '2.1.0')
-  spec.add_runtime_dependency('chartkick', '3.4.1')
+  spec.add_runtime_dependency('chartkick', '3.4.2')
   spec.add_runtime_dependency('groupdate', '5.2.1')
   spec.add_runtime_dependency('terminal-table', '1.8.0')
   spec.add_runtime_dependency('lograge', '0.11.2')
@@ -88,6 +88,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency('newrelic_rpm', '6.13.1')
   spec.add_runtime_dependency('redis', '4.2.2')
 
-  spec.add_development_dependency('rubocop', '~> 0.93.1')
+  spec.add_development_dependency('rubocop', '~> 1.1.0')
   spec.add_development_dependency('rubocop-rails', '~> 2.6')
 end
